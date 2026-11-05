@@ -3,6 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/png" href="/drevano/favicon.png" />
+    <script>
+      // Возврат после редиректа 404.html (GitHub Pages SPA)
+      (function () {
+        try {
+          var r = sessionStorage.getItem('spa-redirect');
+          if (r) {
+            sessionStorage.removeItem('spa-redirect');
+            if (r !== window.location.pathname + window.location.search + window.location.hash) {
+              history.replaceState(null, '', r);
+            }
+          }
+        } catch (e) {}
+      })();
+    </script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#020617" />
     <meta name="description" content="Виїзна хімчистка салону авто Київ — професійне чищення сидінь, стелі, дверних карт, панелі та багажника з виїздом у будь-яке місце. Безпечні засоби для шкіри та тканини." />

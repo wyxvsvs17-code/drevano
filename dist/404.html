@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <title>DREVANO</title>
+    <script>
+      // SPA-редирект для GitHub Pages:
+      // запоминаем запрошенный путь и возвращаемся в корень сайта,
+      // index.html подставит путь обратно через history.replaceState
+      (function () {
+        try {
+          var l = window.location;
+          var base = '/' + l.pathname.split('/')[1] + '/'; // /drevano/
+          sessionStorage.setItem('spa-redirect', l.pathname + l.search + l.hash);
+          l.replace(base);
+        } catch (e) {
+          window.location.replace('/');
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <a href="/">DREVANO</a>
+  </body>
+</html>

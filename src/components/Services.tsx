@@ -21,7 +21,7 @@ export const SERVICES: Service[] = [
     price: 'від 1 500 ₴',
     features: ['Плямовивід без розводів', 'Безпечні засоби для шкіри', 'Сушка 1-2 години'],
     image:
-      'https://images.pexels.com/photos/3806288/pexels-photo-3806288.jpeg?auto=compress&cs=tinysrgb&w=800',
+      'https://images.pexels.com/photos/5233285/pexels-photo-5233285.jpeg?auto=compress&cs=tinysrgb&w=800',
   },
   {
     id: 'ceiling',
@@ -32,7 +32,7 @@ export const SERVICES: Service[] = [
     price: 'від 800 ₴',
     features: ['Без провисання матеріалу', 'Прибираємо нікотиновий наліт', 'Свіжий вигляд салону'],
     image:
-      'https://images.pexels.com/photos/6873028/pexels-photo-6873028.jpeg?auto=compress&cs=tinysrgb&w=800',
+      'https://images.pexels.com/photos/6873185/pexels-photo-6873185.jpeg?auto=compress&cs=tinysrgb&w=800',
   },
   {
     id: 'doors',
@@ -43,7 +43,7 @@ export const SERVICES: Service[] = [
     price: 'від 900 ₴',
     features: ['Акуратно з електронікою', 'Матовый фініш пластику', 'Чисті шви та ручки'],
     image:
-      'https://images.pexels.com/photos/3806252/pexels-photo-3806252.jpeg?auto=compress&cs=tinysrgb&w=800',
+      'https://images.pexels.com/photos/4218861/pexels-photo-4218861.jpeg?auto=compress&cs=tinysrgb&w=800',
   },
   {
     id: 'trunk',
@@ -54,7 +54,7 @@ export const SERVICES: Service[] = [
     price: 'від 700 ₴',
     features: ['Повне прибирання ниші', 'Видалення плям та запахів', 'Обробка ущільнювачів'],
     image:
-      'https://images.pexels.com/photos/6720449/pexels-photo-6720449.jpeg?auto=compress&cs=tinysrgb&w=800',
+      'https://images.pexels.com/photos/5233264/pexels-photo-5233264.jpeg?auto=compress&cs=tinysrgb&w=800',
   },
   {
     id: 'complex',
@@ -65,7 +65,7 @@ export const SERVICES: Service[] = [
     price: 'від 3 500 ₴',
     features: ['Усе салон за 3-5 годин', 'Кондиціонер пластику в подарунок', 'Найвигідніша ціна'],
     image:
-      'https://images.pexels.com/photos/6872167/pexels-photo-6872167.jpeg?auto=compress&cs=tinysrgb&w=800',
+      'https://images.pexels.com/photos/6873100/pexels-photo-6873100.jpeg?auto=compress&cs=tinysrgb&w=800',
   },
   {
     id: 'odor',
@@ -76,7 +76,7 @@ export const SERVICES: Service[] = [
     price: 'від 1 200 ₴',
     features: ['Озонування салону', 'Чистка кондиціонера', 'Заміна салонного фільтра'],
     image:
-      'https://images.pexels.com/photos/3807054/pexels-photo-3807054.jpeg?auto=compress&cs=tinysrgb&w=800',
+      'https://images.pexels.com/photos/9575871/pexels-photo-9575871.jpeg?auto=compress&cs=tinysrgb&w=800',
   },
 ];
 
